@@ -6,11 +6,11 @@ MYIP=$(wget -qO- icanhazip.com);
 echo "Script By geo"
 clear
 apt install jq curl -y
-DOMAIN=polarisvpn.cf
+DOMAIN=embek.xyz
 sub=$(</dev/urandom tr -dc a-z0-9 | head -c4)
-SUB_DOMAIN=${sub}.polarisvpn.cf
-CF_ID=jconadera@gmail.com
-CF_KEY=e95c28a344251e89a0c752171d590ce39f6b9
+SUB_DOMAIN=${sub}.embek.xyz
+CF_ID=kevindonisaputra@gmail.com
+CF_KEY=fcdd190e1aa7c65dc72d7c0f9a039386650f7
 set -euo pipefail
 IP=$(wget -qO- icanhazip.com);
 echo "Updating DNS for ${SUB_DOMAIN}..."
